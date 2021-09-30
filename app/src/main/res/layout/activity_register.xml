@@ -30,7 +30,7 @@
                 android:id="@+id/name"
                 android:textSize="20sp"
                 android:textColor="@android:color/white"
-                android:hint="Name"
+                android:hint="name"
                 android:background="#0000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -42,10 +42,10 @@
             android:layout_marginStart="10dp"
             android:layout_height="wrap_content">
             <EditText
-                android:id="@+id/name"
+                android:id="@+id/city"
                 android:textSize="20sp"
                 android:textColor="@android:color/white"
-                android:hint="Name"
+                android:hint="city"
                 android:background="#0000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -57,10 +57,10 @@
             android:layout_marginStart="10dp"
             android:layout_height="wrap_content">
             <EditText
-                android:id="@+id/name"
+                android:id="@+id/number"
                 android:textSize="20sp"
                 android:textColor="@android:color/white"
-                android:hint="Name"
+                android:hint="number"
                 android:background="#0000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -72,14 +72,42 @@
             android:layout_marginStart="10dp"
             android:layout_height="wrap_content">
             <EditText
-                android:id="@+id/name"
+                android:id="@+id/blood_group"
                 android:textSize="20sp"
                 android:textColor="@android:color/white"
-                android:hint="Name"
+                android:hint="blood group"
                 android:background="#0000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            app:passwordToggleEnabled="true"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/password"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:background="#0000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_btn"
+            android:layout_margin="20dp"
+            android:text="Become a Donor"/>
+
     </LinearLayout>
 
 </ScrollView>

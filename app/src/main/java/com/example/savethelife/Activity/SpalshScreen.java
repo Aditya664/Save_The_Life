@@ -19,7 +19,7 @@ public class SpalshScreen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SpalshScreen.this,MainActivity.class));
+                startActivity(new Intent(SpalshScreen.this,RegisterActivity.class));
                 finish();
             }
         },2500);
