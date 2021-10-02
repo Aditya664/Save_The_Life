@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SaveTheLife">
         <activity
+            android:name=".Activity.SearchActivity"
+            android:exported="true" />
+        <activity
             android:name=".Activity.LoginActivity"
             android:exported="true" />
         <activity

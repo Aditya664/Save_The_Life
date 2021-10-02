@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,6 +7,39 @@
     android:background="@drawable/bg"
     tools:context=".Activity.MainActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_below="@id/toolbar"
+        android:background="#FAFAFA"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pick_location"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:drawableEnd="@drawable/ic_baseline_location_on_24"
+            android:drawableTint="@android:color/black"
+            android:gravity="center"
+            android:text="Choose Location"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        app:title="@string/app_name"
+        app:menu="@menu/menu"
+        app:titleTextColor="@color/white"
+        android:background="#F43232"
+        android:layout_height="?attr/actionBarSize"/>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

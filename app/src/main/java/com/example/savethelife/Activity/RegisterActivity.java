@@ -65,7 +65,7 @@ public class RegisterActivity extends AppCompatActivity {
             public void onResponse(String response) {
                 if(response.equals("Success")){
                     Toast.makeText(RegisterActivity.this, response, Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(RegisterActivity.this, MainActivity.class));
+                    startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                     RegisterActivity.this.finish();
                 }else{
                     Toast.makeText(RegisterActivity.this, response, Toast.LENGTH_SHORT).show();

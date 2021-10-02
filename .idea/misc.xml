@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Aditya/AndroidStudioProjects/SaveTheLife2/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Aditya/AndroidStudioProjects/SaveTheLife2/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Aditya/AndroidStudioProjects/SaveTheLife2/app/src/main/res/layout/activity_register.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Aditya/AndroidStudioProjects/SaveTheLife2/app/src/main/res/layout/activity_search.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Aditya/AndroidStudioProjects/SaveTheLife2/app/src/main/res/layout/activity_spalsh_screen.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Aditya/AndroidStudioProjects/SaveTheLife2/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
