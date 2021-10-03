@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Save The Life</string>
     <string name="sign_up"><u>Sign up</u></string>
+    <string name="Choose_Img"><u>Choose Image</u></string>
 </resources>
