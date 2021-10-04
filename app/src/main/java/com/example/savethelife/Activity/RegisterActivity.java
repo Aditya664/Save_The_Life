@@ -64,9 +64,12 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onResponse(String response) {
                 if(response.equals("Success")){
+                    PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).edit()
+                            .putString("city", city).apply();
                     Toast.makeText(RegisterActivity.this, response, Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                     RegisterActivity.this.finish();
+
                 }else{
                     Toast.makeText(RegisterActivity.this, response, Toast.LENGTH_SHORT).show();
                 }
